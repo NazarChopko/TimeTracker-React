@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+.tracker__container {
+  background-color: white;
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+
+  &__header {
+    .input_wrapper {
+      width: 80%;
+      height: 30px;
+      margin: 0 auto;
+      position: relative;
+
+      input {
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        padding-right: 25px;
+      }
+    }
+    span {
+      position: absolute;
+      right: 3px;
+      top: 2.5px;
+
+      &:hover {
+        svg path {
+          fill: chartreuse;
+        }
+      }
+    }
+  }
+
+  &__body {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    &__name {
+      width: 50%;
+      text-align: start;
+    }
+    &__time {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      svg {
+        margin-left: 10px;
+      }
+    }
+  }
+}
