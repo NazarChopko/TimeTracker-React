@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TimeTracker-React/static/css/main.a54451e4.chunk.css",
+    "main.js": "/TimeTracker-React/static/js/main.3fdc88e5.chunk.js",
+    "main.js.map": "/TimeTracker-React/static/js/main.3fdc88e5.chunk.js.map",
+    "runtime-main.js": "/TimeTracker-React/static/js/runtime-main.aa4ea3f5.js",
+    "runtime-main.js.map": "/TimeTracker-React/static/js/runtime-main.aa4ea3f5.js.map",
+    "static/js/2.2b8e7203.chunk.js": "/TimeTracker-React/static/js/2.2b8e7203.chunk.js",
+    "static/js/2.2b8e7203.chunk.js.map": "/TimeTracker-React/static/js/2.2b8e7203.chunk.js.map",
+    "static/js/3.43c135a8.chunk.js": "/TimeTracker-React/static/js/3.43c135a8.chunk.js",
+    "static/js/3.43c135a8.chunk.js.map": "/TimeTracker-React/static/js/3.43c135a8.chunk.js.map",
+    "index.html": "/TimeTracker-React/index.html",
+    "static/css/main.a54451e4.chunk.css.map": "/TimeTracker-React/static/css/main.a54451e4.chunk.css.map",
+    "static/js/2.2b8e7203.chunk.js.LICENSE.txt": "/TimeTracker-React/static/js/2.2b8e7203.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa4ea3f5.js",
+    "static/js/2.2b8e7203.chunk.js",
+    "static/css/main.a54451e4.chunk.css",
+    "static/js/main.3fdc88e5.chunk.js"
+  ]
+}
