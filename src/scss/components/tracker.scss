@@ -10,6 +10,7 @@
   box-shadow: 0 0 10px;
   border-radius: 6px;
   margin-top: 50px;
+  overflow-y: scroll;
 
   &__header {
     padding-top: 10px;
@@ -72,9 +73,8 @@
       position: absolute;
       top: 0;
       bottom: 0;
-      left: 0;
+      left: 70px;
       right: 0;
-      width: 50%;
       height: 30%;
       margin: auto;
       font-size: 17px;
@@ -95,5 +95,37 @@
         }
       }
     }
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .tracker__container {
+    width: 300px;
+    height: 500px;
+
+    &__body__name {
+      width: 65%;
+      text-align: start;
+      word-break: break-all;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    &__body__time {
+      width: 25%;
+      text-align: end;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 20px;
+      right: 0;
+      height: 30%;
+      margin: auto;
+      font-size: 13px;
+      font-style: italic;
+    }
+  }
+  .btn {
+    padding: 0px;
   }
 }
